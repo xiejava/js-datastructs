@@ -1,5 +1,5 @@
 /**
- * 单向链表
+ * linkedlist
  * by snandy 2011
  * 
  */
@@ -29,7 +29,7 @@ Node.prototype.constructor = Node;
 function nodeByIndex(index, head) {
     var node = head;
     var i = 0;
-    // 第一个
+    // the first node
     if(index===0) {
         return node;
     }
